@@ -9,5 +9,6 @@ def ntt(num):
         result += str(num // 10000) + "만 "
         num %= 10000
     
-    if num > 0: result += str(num)
+    if num > 0 or not result: result += str(num)
+    
     return result.rstrip()

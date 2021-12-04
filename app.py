@@ -20,8 +20,8 @@ def child():
         num1 = google_keyword.get_keyword_number(key1)
         num2 = google_keyword.get_keyword_number(key2)
         title = "무승부"
-        desc1 = f"{key1}: {num_to_text.ntt(num1)}회"
-        desc2 = f"{key2}: {num_to_text.ntt(num2)}회"
+        desc1 = f"{key1}: {num_to_text.ntt(num1)}개"
+        desc2 = f"{key2}: {num_to_text.ntt(num2)}개"
 
         if num1 > num2:
             title = f"{key1} 승리!"

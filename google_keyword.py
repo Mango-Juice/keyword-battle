@@ -15,12 +15,10 @@ def get_keyword_number(keyword):
         number = soup.select_one('#result-stats').text
 
         if number.find('약') > -1:
-            number = int(
-                number[number.find('약')+2:number.rfind('개')].replace(',', ''))
+            number = int(number[number.find('약')+2:number.rfind('개')].replace(',', ''))
         else:
-            number = int(
-                number[number.find('t')+2:number.rfind('r')].replace(',', ''))
+            number = int(number[number.find('t')+2:number.rfind('r')].replace(',', ''))
 
-        return number
+        return number if number else 0
     except:
         return 0
