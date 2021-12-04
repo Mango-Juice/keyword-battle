@@ -14,7 +14,13 @@ def get_keyword_number(keyword):
         soup = BeautifulSoup(res.text, 'lxml')
         number = soup.select_one('#result-stats').text
 
-        number = int(number[number.find('약')+2:number.rfind('개')].replace(',', ''))
+        if number.find('약') > -1:
+            number = int(
+                number[number.find('약')+2:number.rfind('개')].replace(',', ''))
+        else:
+            number = int(
+                number[number.find('t')+2:number.rfind('r')].replace(',', ''))
+
         return number
     except:
         return 0
