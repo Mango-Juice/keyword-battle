@@ -4,6 +4,7 @@
 ![Flask](https://img.shields.io/badge/flask-%23000000.svg?style=for-the-badge&logo=flask&logoColor=white)
 # 키워드 배틀
 Flask로 만든 키워드 배틀 사이트입니다. 두 개의 키워드를 입력하면 Google에 더 많이 검색된 키워드를 찾아줍니다.
++ 링크: https://keyword-battle.herokuapp.com/
 
 ### 설치 및 사용법
 ```
