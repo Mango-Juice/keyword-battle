@@ -33,6 +33,6 @@
 
 @keyframes show {
     from {
-        font-size: calc(1.375rem + 3.5vw);
+        font-size: calc(1.5rem + 4vw);
     }
 }
