@@ -22,3 +22,17 @@
     text-align: center;
     font-size: 20px;
 }
+
+::selection {
+    background-color: rgba(256, 256, 0, 0.3) !important;
+}
+
+#winner {
+    animation: show 1s;
+}
+
+@keyframes show {
+    from {
+        font-size: calc(1.375rem + 3.5vw);
+    }
+}
