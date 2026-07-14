@@ -23,5 +23,5 @@ requests==2.32.0
 soupsieve==2.3.1
 toml==0.10.2
 urllib3==1.26.19
-Werkzeug==3.0.3
+Werkzeug==3.1.6
 wrapt==1.13.3
