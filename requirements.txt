@@ -20,7 +20,7 @@ platformdirs==2.4.0
 pycodestyle==2.8.0
 pylint==2.12.2
 requests==2.33.0
-soupsieve==2.3.1
+soupsieve==2.8.4
 toml==0.10.2
 urllib3==2.7.0
 Werkzeug==3.1.6
